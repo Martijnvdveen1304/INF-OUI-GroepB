@@ -6,6 +6,8 @@
 		<link rel="stylesheet" type="text/css" href="eten.css">
 	</head>
 	<body>
+	<div> 
+	</div>
 		<div id="mainContainer">
 			<header>
 				<h1><i>Eten</i></h1>
