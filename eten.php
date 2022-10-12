@@ -9,5 +9,9 @@
 		<div id="mainContainer">
 		
 		</div>
+		<div>
+			<?php
+			?>
+		</div>
 	</body>
 </html>
