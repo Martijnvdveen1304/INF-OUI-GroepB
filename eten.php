@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<div id="mainContainer">
-		
+			<h1> Hallo </h1> 
 		</div>
 		<div>
 			<?php
