@@ -9,6 +9,7 @@
 		<div id="mainContainer">
 			<p>Iets aanpassen</p>
 		
+			<h1> Hallo </h1> 
 		</div>
 	</body>
 </html>
