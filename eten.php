@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="ni_pr.css">
 	</head>
 	<body>
-		<div id="mainContainer">
+		<div id="Container">
 		
 		</div>
 	</body>
