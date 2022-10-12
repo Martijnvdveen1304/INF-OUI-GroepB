@@ -6,8 +6,8 @@
 		<link rel="stylesheet" type="text/css" href="ni_pr.css">
 	</head>
 	<body>
-		<div id="Container">
-		
+		<div id="mainContainer">
+			<h1> Hallo </h1> 
 		</div>
 	</body>
 </html>
