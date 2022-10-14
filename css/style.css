@@ -132,13 +132,15 @@ footer
 	justify-content: center;
 }
 
-.afbeeldingenHome{
+.afbeeldingenHome
+{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 }
 
-.middleHome{
+.middleHome
+{
 	display: flex;
 	justify-content: center;
 	padding-top: 332px;
@@ -189,6 +191,18 @@ footer
 		margin-left: auto;
 		margin-right: auto;
 		padding-top: 70px;
+		position: relative;
+		top: -65px;
+	}
+	.topNP > div 
+	{
+		background-color: #95261F;
+		width: 300px;
+		height: 53px;
+		margin-left: auto;
+		position: relative;
+		top: -65px;
+		right: 33px;
 	}
 
 /* Over ons */
@@ -196,54 +210,63 @@ footer
 
 
 /* Recepten */
-.receptencontent > h2 {
+.receptencontent > h2 
+{
 	text-align: center;
 	font-family: caveat;
 	font-size: 64px;
 	color: #95261F;
 }
 
-.bereidingswijze > h3 {
+.bereidingswijze > h3 
+{
 	font-family: caveat;
 	font-size: 48px;
 	color: #95261F;
 }
 
-.bereidingswijze > ol {
+.bereidingswijze > ol
+{
 	font-family: abeezee;
 	font-size: 24px;
 	color: #95261F
 }
 
-#youtubecontainer, .yt{
+#youtubecontainer, .yt
+{
 	display: flex;
 	justify-content: space-around;
 }
 
-#youtubecontainer > img {
+#youtubecontainer > img 
+{
 	height: 100px;
 	width: 100px;
 	margin: 50px;
 }
 
-#youtubecontainer {
+#youtubecontainer 
+{
 	align-items: center;
 }
 
-.yt {
+.yt 
+{
 	background-color: #EDE5BB;
 	padding: 50px;
 	margin-bottom: 50px;
 	border-radius: 5%;
 }
 
-iframe {
+iframe 
+{
 	width: 500px;
 	height: 500px;
 	border-radius: 5%;
 }
 
-.receptencontent {
+.receptencontent 
+{
 	background-image: url("../afbeeldingen/receptenBanner.jpg");
 	background-size: cover;
 }
@@ -261,12 +284,14 @@ iframe {
 
 
 /* Regels */
-.regelsbanner{
+.regelsbanner
+{
 	min-height: 823px;
 	background-image: url("../afbeeldingen/regelsbanner.png"); 
 }
 
-.kopjeregels{
+.kopjeregels
+{
 	justify-content: center;
 	align-items: center;
 	padding-top: 10px;
