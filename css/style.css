@@ -23,6 +23,11 @@
 	src: url(fonts/MsMadi-Regular.ttf);
 }
 
+@font-face {
+	font-family: bebasneue;
+	src: url(fonts/BebasNeue.ttf);
+}
+
 ﻿#container 
 {
 	display: grid;
@@ -173,7 +178,8 @@ footer
 	display: grid;
 	height: 430px;
 	grid-column: 1/4;
-	background: rgba(237, 229, 187, 0.25);
+	background: rgba(237, 229, 187, .5);
+
 }
 	.topNP > p 
 	{
@@ -193,9 +199,11 @@ footer
 		padding-top: 70px;
 		position: relative;
 		top: -65px;
+		z-index: 9;
 	}
 	.topNP > div 
 	{
+		display: grid;
 		background-color: #95261F;
 		width: 300px;
 		height: 53px;
@@ -203,7 +211,64 @@ footer
 		position: relative;
 		top: -65px;
 		right: 33px;
+
+
 	}
+.TerugNP 
+{
+	display: flex;
+	text-decoration: none;
+	color: #EDE5BB;
+	justify-content: center;
+	align-items: center;
+	font-size: 55px;
+	position: relative;
+	top: -51px;
+	font-family: bebasneue;
+
+}
+
+.TerugIconNP {
+	position: relative;
+	left: 20px;
+	font-size: 40px;
+	color: #EDE5BB;
+	font-family: bebasneue;
+}
+
+.productenNP
+{
+	display: grid;
+	height: 1500px;
+	background-color: red;
+	align-items: center;
+
+}
+	.productenNP > div
+	{
+		background-color: blue;
+		width: 725px;
+		margin-left: auto;
+		position: relative;
+		top: 150px;
+	}
+		.productenNP > div > .theeNP
+		{
+			height: 420px;
+			width: 321px;
+		}
+
+		.productenNP > div > .macaronNP {
+			height: 350px;
+			width: 321px;
+		}
+
+		.productenNP > div > .textNP 
+		{
+			width: 391px;
+			margin-left: auto;
+			background-color: green;
+		}
 
 /* Over ons */
 
