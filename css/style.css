@@ -73,7 +73,8 @@ footer
 	grid-row: 3;
 }
 
-.menu2-container {
+.menu2-container 
+{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -82,20 +83,23 @@ footer
 	padding-right: 55px;
 }
 
-	.menu2-container > p {
+	.menu2-container > p 
+	{
 		color: #95261F;
 		font-size: 40px;
 		font-family: caveat;
 
 	}
 
-	.menu2-container > h1 {
+	.menu2-container > h1 
+	{
 		color: #95261F;
 		font-size: 96px;
 		font-family: abeezee;
 		margin-right: auto;
 	}
-	.menu2-container > div {
+	.menu2-container > div 
+	{
 		margin-left: auto;
 		display: flex;
 		
@@ -110,14 +114,16 @@ footer
 
 
 /* Home */
-.homeBanner{
+.homeBanner
+{
 	min-height: 823px;
 	grid-row: 2;
 	grid-column: 1/4;
 	background-image: url("../afbeeldingen/homeBanner.png");
 }
 
-.welkom{
+.welkom
+{
 	font-family: "Ms Madi";
 	color: #95261F;
 	font-size: 100px;
@@ -126,7 +132,8 @@ footer
 	justify-content: center;
 }
 
-.afbeeldingen{
+.afbeeldingen
+{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -148,12 +155,25 @@ footer
 
 /* Nieuwe producten */
 
-.middle
+.middleNP
 {
 	min-height: 1640px;
 	grid-row: 2;
 	grid-column: 1/4;
 }
+.topNP {
+	display: grid;
+	height: 430px;
+	grid-column: 1/4;
+	background: rgba(237, 229, 187, 0.25);
+}
+	.topNP > p {
+		display: flex;
+		font-family: caveat;
+		font-size: 64px;
+		justify-content: center;
+		color: #95261F;
+	}
 
 /* Over ons */
 
