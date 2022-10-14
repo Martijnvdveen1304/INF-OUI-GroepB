@@ -253,7 +253,11 @@ iframe {
 
 
 /* Nieuws */
-
+.middel-nieuws{
+	grid-column: 1/4;
+	min-height: 800px;
+	background-image: url("../afbeeldingen/nieuwsbanner.png");
+}
 
 
 /* Regels */
