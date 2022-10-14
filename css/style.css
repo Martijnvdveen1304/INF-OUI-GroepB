@@ -157,6 +157,18 @@ footer
 
 /* Over ons */
 
+#overOnsContainer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+
+#tekstAfbeelding{
+	height: 800px;
+	background: url("../afbeeldingen/overOnsKoffie.png");
+	text-align: center;
+	padding: 50px;
+}
 
 
 /* Recepten */
