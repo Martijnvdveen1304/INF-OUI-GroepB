@@ -168,5 +168,8 @@ footer
 
 
 /* Regels */
-
+.regelsmiddel{
+	min-height: 823px;
+	background-image: url("../afbeeldingen/regelsbanner.png"); 
+}
 
