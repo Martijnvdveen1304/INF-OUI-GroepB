@@ -1,8 +1,105 @@
-/* Algemeen */
-*{
+﻿/* Algemeen */
+*
+{
 	margin: 0px;
 	padding: 0px;
 }
+
+
+@font-face 
+{
+	font-family: abeezee;
+	src: url(fonts/abeezee.ttf);
+}
+
+@font-face 
+{
+	font-family: caveat;
+	src: url(fonts/Caveat-Regular.ttf);
+}
+
+﻿#container 
+{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 0 auto;
+}
+
+header 
+{
+	display: grid;
+	background-color: #EDE5BB;
+	grid-column: 1/4;
+	grid-row: 1;
+	box-shadow: 0px 7px 5px -2px #808080;
+	height: 100px;
+}
+
+
+
+.menu1-container
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	
+}
+
+	.menu1-container > p {
+		color: #95261F;
+		font-size: 64px;
+		font-family: abeezee;
+	}
+
+	.menu1-container > a {
+		font-size: 40px;
+		font-family: caveat;
+		text-decoration: none;
+		color: #95261F;
+	}
+
+footer 
+{
+	display: grid;
+	max-height: 100px;
+	background-color: #EDE5BB;
+	grid-column: 1/4;
+	grid-row: 3;
+}
+
+.menu2-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+	.menu2-container > p {
+		color: #95261F;
+		font-size: 40px;
+		font-family: caveat;
+
+	}
+
+	.menu2-container > h1 {
+		color: #95261F;
+		font-size: 96px;
+		font-family: abeezee;
+		margin-right: auto;
+	}
+	.menu2-container > div {
+		margin-left: auto;
+		display: flex;
+		
+	}
+.icon
+{
+	max-width: 46px;
+	max-height: 32px;
+	align-items: center;
+}
+
 
 
 /* Home */
@@ -23,7 +120,12 @@
 
 /* Nieuwe producten */
 
-
+.middle
+{
+	min-height: 1640px;
+	grid-row: 2;
+	grid-column: 1/4;
+}
 
 /* Over ons */
 
