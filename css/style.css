@@ -168,8 +168,18 @@ footer
 
 
 /* Regels */
-.regelsmiddel{
+.regelsbanner{
 	min-height: 823px;
 	background-image: url("../afbeeldingen/regelsbanner.png"); 
+}
+
+.kopjeregels{
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+	display: flex;
+	font-family: caveat;
+	font-size: 64px;
+	color: #95261F;
 }
 
