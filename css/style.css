@@ -126,12 +126,18 @@ footer
 	justify-content: center;
 }
 
-.afbeeldingen{
+.afbeeldingenHome{
 	display: flex;
-	justify-content: space-around;
 	align-items: center;
+	justify-content: space-around;
 }
 
+.middleHome{
+	display: flex;
+	justify-content: center;
+	padding-top: 332px;
+	padding-bottom: 175px;
+}
 
 
 /* Menu */
