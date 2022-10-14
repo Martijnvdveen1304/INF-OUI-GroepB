@@ -160,6 +160,54 @@ footer
 
 
 /* Recepten */
+.receptencontent > h2 {
+	text-align: center;
+	font-family: caveat;
+	font-size: 64px;
+	color: #95261F;
+}
+
+.bereidingswijze > h3 {
+	font-family: caveat;
+	font-size: 48px;
+	color: #95261F;
+}
+
+.bereidingswijze > ol {
+	font-family: abeezee;
+	font-size: 24px;
+	color: #95261F
+}
+
+#youtubecontainer, .yt{
+	display: flex;
+	justify-content: space-around;
+}
+
+#youtubecontainer > img {
+	height: 100px;
+	width: 100px;
+	margin: 50px;
+}
+
+#youtubecontainer {
+	align-items: center;
+}
+
+.yt {
+	background-color: #EDE5BB;
+	padding: 50px;
+	margin-bottom: 50px;
+	border-radius: 5%;
+}
+
+iframe {
+	width: 500px;
+	height: 500px;
+	border-radius: 5%;
+}
+
+
 
 
 
