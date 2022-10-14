@@ -232,6 +232,11 @@ iframe {
 	border-radius: 5%;
 }
 
+.receptencontent {
+	background-image: url("../afbeeldingen/receptenBanner.jpg");
+	background-size: cover;
+}
+
 
 
 
