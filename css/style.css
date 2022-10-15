@@ -119,12 +119,25 @@ footer
 
 
 /* Home */
+@keyframes pictures{
+	0% {background-image: url("../afbeeldingen/homeBanner.png");}
+	25% {background-color: black;}
+	50% {background-color: green;}
+	75% {background-color: red;}
+	100% {background-image: url("../afbeeldingen/homeBanner.png");}
+}
+
 .homeBanner
 {
 	min-height: 823px;
 	grid-row: 2;
 	grid-column: 1/4;
 	background-image: url("../afbeeldingen/homeBanner.png");
+	animation-name: pictures;
+	animation-duration: 30s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 }
 
 .welkom
