@@ -120,11 +120,32 @@ footer
 
 /* Home */
 @keyframes pictures{
+	/* background-colors moeten aangepast worden naar imgs */
 	0% {background-image: url("../afbeeldingen/homeBanner.png");}
-	25% {background-color: black;}
-	50% {background-color: green;}
-	75% {background-color: red;}
+	33% {background-color: black;}
+	66% {background-color: green;}
 	100% {background-image: url("../afbeeldingen/homeBanner.png");}
+}
+
+@keyframes cirkels1{
+	0% {opacity: 1;}
+	33% {opacity: 0;}
+	66% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes cirkels2{
+	0% {opacity: 0;}
+	33% {opacity: 1;}
+	66% {opacity: 0;}
+	100% {opacity: 0;}
+}
+
+@keyframes cirkels3{
+	0% {opacity: 0;}
+	33% {opacity: 0;}
+	66% {opacity: 1;}
+	100% {opacity: 0;}
 }
 
 .homeBanner
@@ -150,6 +171,14 @@ footer
 	justify-content: center;
 }
 
+.middleHome
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 332px;
+	padding-bottom: 175px;
+}
+
 .afbeeldingenHome
 {
 	display: flex;
@@ -157,12 +186,46 @@ footer
 	justify-content: space-around;
 }
 
-.middleHome
-{
-	display: flex;
-	justify-content: center;
-	padding-top: 332px;
-	padding-bottom: 175px;
+.parent{
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.image1{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	opacity: 1;
+	animation-name: cirkels1;
+	animation-duration: 30s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+
+.image2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	animation-name: cirkels2;
+	animation-duration: 30s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+
+.image3{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	animation-name: cirkels3;
+	animation-duration: 30s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 }
 
 
