@@ -159,14 +159,79 @@ footer
 
 /* Drinken */
 #drankenContainer{
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-column: 1/9;
+	/*background-color: linen;*/
+	font-family: Caveat, Sans-Serif;
 	background-image: url(../afbeeldingen/ahonline_xlArticle.png);
 	background-size: cover;
+	color: #95261F;
+	/*opacity: 0.2;*/
 }
 
-#drankenContainer > div{
-	display: grid;
-	height: 430px;
-	grid-column: 1/4;
+#bovenstukDranken{
+	grid-column: 4/9;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 30px 0px 70px 0px;
+}
+
+#bovenstukDranken h1{
+	font-size: 48px;
+}
+
+#terugDranken{
+	border: solid #95261F 2px;
+	background-color: #95261F;
+	padding:5px 65px 5px 40px;
+}
+
+#terugDranken a{
+	color: #EDE5BB;
+	text-decoration: none;
+	font-family: bebasneue;
+	font-size: 20px;
+}
+
+#warmeDranken{
+	grid-column: 2/4;
+	margin-bottom: 70px;
+}
+
+#warmeDranken h2{
+	font-size: 36px;
+}
+
+#warmeDranken h2{
+	font-size: 32px;
+}
+
+#koudeDranken{
+	grid-column: 7/9;
+}
+
+#koudeDranken h2{
+	font-size: 36px;
+}
+
+#koudeDranken h2{
+	font-size: 32px;
+}
+
+#illustarieDranken{
+	grid-column: 8/9;
+	display: flex;
+	justify-content: center;
+}
+
+#illustartiek{
+	width:;
+}
+
+#illustartiet{
+	width: ;
 }
 
 /* Eten */
