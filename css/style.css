@@ -158,8 +158,16 @@ footer
 
 
 /* Drinken */
+#drankenContainer{
+	background-image: url(../afbeeldingen/ahonline_xlArticle.png);
+	background-size: cover;
+}
 
-
+#drankenContainer > div{
+	display: grid;
+	height: 430px;
+	grid-column: 1/4;
+}
 
 /* Eten */
 
