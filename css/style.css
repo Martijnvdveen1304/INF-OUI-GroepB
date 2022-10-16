@@ -122,8 +122,8 @@ footer
 @keyframes pictures{
 	/* background-colors moeten aangepast worden naar imgs */
 	0% {background-image: url("../afbeeldingen/homeBanner.png");}
-	33% {background-color: black;}
-	66% {background-color: green;}
+	33% {background-image: url("../afbeeldingen/homeBanner2.png");}
+	66% {background-image: url("../afbeeldingen/homeBanner3.png");}
 	100% {background-image: url("../afbeeldingen/homeBanner.png");}
 }
 
