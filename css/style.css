@@ -232,10 +232,9 @@ footer
 /* Menu */
 #frontmenu-container{
 	display: grid; 
-	grid-column: reaper (3, 1fr); 
+	grid-template-columns: reaper(3, 1fr); 
 }
-Menufoto{ 
-position: absolute;
+.Menufoto{ 
 width: 716px;
 height: 824px;
 left: 0px;
