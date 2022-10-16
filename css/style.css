@@ -234,7 +234,14 @@ footer
 	display: grid; 
 	grid-column: reaper (3, 1fr); 
 }
-		
+Menufoto{ 
+position: absolute;
+width: 716px;
+height: 824px;
+left: 0px;
+top: 128px;
+background: url(image);
+} 
 
 
 
