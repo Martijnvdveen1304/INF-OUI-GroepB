@@ -230,6 +230,11 @@ footer
 
 
 /* Menu */
+#frontmenu-container{
+	display: grid; 
+	grid-column: reaper (3, 1fr); 
+}
+		
 
 
 
