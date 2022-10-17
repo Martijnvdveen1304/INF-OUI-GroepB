@@ -507,10 +507,22 @@ display: flex;
 
 
 #tekstAfbeelding{
+	
 	height: 800px;
 	background: url("../afbeeldingen/overOnsKoffie.png");
+	background-size: 750px;
+	background-repeat: no-repeat;
 	text-align: center;
 	padding: 50px;
+	color: #95261F;
+}
+
+
+
+#tekstAfbeelding > h6{
+	font-size: 35px;
+	font-weight: normal;
+	font-family: caveat;
 }
 
 
