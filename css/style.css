@@ -247,20 +247,19 @@ background: url(image);
 /* Drinken */
 #drankenContainer{
 	display: grid;
-	grid-template-columns: repeat(8, 1fr);
-	grid-column: 1/9;
-	/*background-color: linen;*/
+	grid-template-columns: repeat(16, 1fr);
+	grid-column: 1/16;
 	font-family: Caveat, Sans-Serif;
 	background-image: url(../afbeeldingen/drankenBanner.png);
+	/*background-color: cornflowerblue;*/
 	background-size: cover;
 	color: #95261F;
-	/*opacity: 0.2;*/
 }
 
 #bovenstukDranken{
-	grid-column: 4/9;
+	grid-column: 7/17;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	margin: 30px 0px 70px 0px;
 }
@@ -272,18 +271,19 @@ background: url(image);
 #terugDranken{
 	border: solid #95261F 2px;
 	background-color: #95261F;
-	padding:5px 65px 5px 40px;
+	padding:0px 65px 0px 40px;
+	margin-right: 30px;
 }
 
 #terugDranken a{
 	color: #EDE5BB;
 	text-decoration: none;
 	font-family: bebasneue;
-	font-size: 20px;
+	font-size: 36px;
 }
 
 #warmeDranken{
-	grid-column: 2/4;
+	grid-column: 3/7;
 	margin-bottom: 70px;
 }
 
@@ -291,24 +291,30 @@ background: url(image);
 	font-size: 36px;
 }
 
-#warmeDranken h2{
+#warmeDranken h3{
 	font-size: 32px;
 }
 
+.prijsRij{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
 #koudeDranken{
-	grid-column: 7/9;
+	grid-column: 11/16;
 }
 
 #koudeDranken h2{
 	font-size: 36px;
 }
 
-#koudeDranken h2{
+#koudeDranken h3{
 	font-size: 32px;
 }
 
 #illustarieDranken{
-	grid-column: 8/9;
+	grid-column: 14/16;
 	display: flex;
 	justify-content: center;
 }
