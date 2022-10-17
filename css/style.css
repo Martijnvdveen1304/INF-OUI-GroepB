@@ -18,12 +18,14 @@
 	src: url(fonts/Caveat-Regular.ttf);
 }
 
-@font-face{
+@font-face
+{
 	font-family: "Ms Madi";
 	src: url(fonts/MsMadi-Regular.ttf);
 }
 
-@font-face {
+@font-face 
+{
 	font-family: bebasneue;
 	src: url(fonts/BebasNeue.ttf);
 }
@@ -56,13 +58,15 @@ header
 	
 }
 
-	.menu1-container > p {
+	.menu1-container > p 
+	{
 		color: #95261F;
 		font-size: 64px;
 		font-family: abeezee;
 	}
 
-	.menu1-container > a {
+	.menu1-container > a 
+	{
 		font-size: 40px;
 		font-family: caveat;
 		text-decoration: none;
@@ -119,7 +123,8 @@ footer
 
 
 /* Home */
-@keyframes pictures{
+@keyframes pictures
+{
 	/* background-colors moeten aangepast worden naar imgs */
 	0% {background-image: url("../afbeeldingen/homeBanner.png");}
 	33% {background-image: url("../afbeeldingen/homeBanner2.png");}
@@ -127,21 +132,24 @@ footer
 	100% {background-image: url("../afbeeldingen/homeBanner.png");}
 }
 
-@keyframes cirkels1{
+@keyframes cirkels1
+{
 	0% {opacity: 1;}
 	33% {opacity: 0;}
 	66% {opacity: 0;}
 	100% {opacity: 1;}
 }
 
-@keyframes cirkels2{
+@keyframes cirkels2
+{
 	0% {opacity: 0;}
 	33% {opacity: 1;}
 	66% {opacity: 0;}
 	100% {opacity: 0;}
 }
 
-@keyframes cirkels3{
+@keyframes cirkels3
+{
 	0% {opacity: 0;}
 	33% {opacity: 0;}
 	66% {opacity: 1;}
@@ -186,13 +194,15 @@ footer
 	justify-content: space-around;
 }
 
-.parent{
+.parent
+{
 	position: relative;
 	top: 0px;
 	left: 0px;
 }
 
-.image1{
+.image1
+{
 	position: relative;
 	top: 0px;
 	left: 0px;
@@ -204,7 +214,8 @@ footer
 	animation-iteration-count: infinite;
 }
 
-.image2{
+.image2
+{
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -216,7 +227,8 @@ footer
 	animation-iteration-count: infinite;
 }
 
-.image3{
+.image3
+{
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -230,12 +242,21 @@ footer
 
 
 /* Menu */
-#frontmenu-container{
+<<<<<<< Updated upstream
+#frontmenu-container
+{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	margin: 0 auto;
+=======
+#frontmenu-container
+{
+	display: grid; 
+	grid-template-columns: repeat(3, 1fr); 
+>>>>>>> Stashed changes
 }
-.Menufoto{ 
+.Menufoto
+{ 
 width: 716px;
 height: 824px;
 left: 0px;
@@ -254,7 +275,8 @@ display: flex;
 
 
 /* Dranken */
-#drankenContainer{
+#drankenContainer
+{
 	display: grid;
 	grid-template-columns: repeat(16, 1fr);
 	grid-column: 1/16;
@@ -265,7 +287,8 @@ display: flex;
 	color: #95261F;
 }
 
-#bovenstukDranken{
+#bovenstukDranken
+{
 	grid-column: 7/17;
 	display: flex;
 	justify-content: space-between;
@@ -273,67 +296,80 @@ display: flex;
 	margin: 30px 0px 70px 0px;
 }
 
-#bovenstukDranken h1{
+#bovenstukDranken h1
+{
 	font-size: 48px;
 }
 
-#terugDranken{
+#terugDranken
+{
 	border: solid #95261F 2px;
 	background-color: #95261F;
 	padding:0px 65px 0px 40px;
 	margin-right: 30px;
 }
 
-#terugDranken a{
+#terugDranken a
+{
 	color: #EDE5BB;
 	text-decoration: none;
 	font-family: bebasneue;
 	font-size: 36px;
 }
 
-#warmeDranken{
+#warmeDranken
+{
 	grid-column: 3/7;
 	margin-bottom: 70px;
 }
 
-#warmeDranken h2{
+#warmeDranken h2
+{
 	font-size: 36px;
 }
 
-#warmeDranken h3{
+#warmeDranken h3
+{
 	font-size: 32px;
 }
 
-.prijsRij{
+.prijsRij
+{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
-#koudeDranken{
+#koudeDranken
+{
 	grid-column: 10/15;
 }
 
-#koudeDranken h2{
+#koudeDranken h2
+{
 	font-size: 36px;
 }
 
-#koudeDranken h3{
+#koudeDranken h3
+{
 	font-size: 32px;
 }
 
-#illustarieDranken{
+#illustarieDranken
+{
 	grid-column: 14/16;
 	display: flex;
 	justify-content: center;
 }
 
-#illustartiek{
-	width:;
+#illustartiek
+{
+	/*width:;*/
 }
 
-#illustartiet{
-	width: ;
+#illustartiet
+{
+	/*/width: ;*/
 }
 
 /* Eten */
@@ -376,8 +412,7 @@ display: flex;
 		top: -65px;
 		z-index: 9;
 	}
-	.topNP > div 
-	{
+	.topNP > div {
 		display: grid;
 		background-color: #95261F;
 		width: 300px;
@@ -386,8 +421,6 @@ display: flex;
 		position: relative;
 		top: -65px;
 		right: 33px;
-
-
 	}
 .TerugNP 
 {
@@ -403,7 +436,8 @@ display: flex;
 
 }
 
-.TerugIconNP {
+.TerugIconNP 
+{
 	position: relative;
 	left: 20px;
 	font-size: 40px;
@@ -414,18 +448,15 @@ display: flex;
 .productenNP
 {
 	display: grid;
-	height: 1500px;
-	background-color: red;
+	height: 1300px;
 	align-items: center;
 
 }
-	.productenNP > div
+	.productenNP > div 
 	{
-		background-color: blue;
 		width: 725px;
 		margin-left: auto;
-		position: relative;
-		top: 150px;
+		color: #95261F;
 	}
 		.productenNP > div > .theeNP
 		{
@@ -433,7 +464,8 @@ display: flex;
 			width: 321px;
 		}
 
-		.productenNP > div > .macaronNP {
+		.productenNP > div > .macaronNP 
+		{
 			height: 350px;
 			width: 321px;
 		}
@@ -442,7 +474,40 @@ display: flex;
 		{
 			width: 391px;
 			margin-left: auto;
-			background-color: green;
+			font-size: 32px;
+			display: inline-block;
+			position: relative;
+			top: -85px;
+			left: 15px;
+			font-family: caveat;
+		}
+		.productenNP > div > .textNP > div 
+		{
+			width: 391px;
+			margin-left: auto;
+			font-size: 24px;
+			font-family: abeezee;
+		}
+		.descNP {
+			font-size: 16px;
+			position: relative;
+			top: 22px;
+			font-family: abeezee;
+		}
+		.thee2NP
+		{
+			position: relative;
+			top: 25px;
+		}
+		.macNP
+		{
+			position: relative;
+			top: 200px;
+		}
+		#textNP2
+		{
+			position: relative;
+			top: -155px;
 		}
 
 /* Over ons */
@@ -516,7 +581,8 @@ iframe
 
 
 /* Nieuws */
-.middel-nieuws{
+.middel-nieuws
+{
 	grid-column: 1/4;
 	min-height: 800px;
 	background-image: url("../afbeeldingen/nieuwsbanner.png");
