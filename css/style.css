@@ -18,9 +18,16 @@
 	src: url(fonts/Caveat-Regular.ttf);
 }
 
-@font-face{
+@font-face
+{
 	font-family: "Ms Madi";
 	src: url(fonts/MsMadi-Regular.ttf);
+}
+
+@font-face 
+{
+	font-family: bebasneue;
+	src: url(fonts/BebasNeue.ttf);
 }
 
 ﻿#container 
@@ -51,13 +58,15 @@ header
 	
 }
 
-	.menu1-container > p {
+	.menu1-container > p 
+	{
 		color: #95261F;
 		font-size: 64px;
 		font-family: abeezee;
 	}
 
-	.menu1-container > a {
+	.menu1-container > a 
+	{
 		font-size: 40px;
 		font-family: caveat;
 		text-decoration: none;
@@ -114,12 +123,50 @@ footer
 
 
 /* Home */
+@keyframes pictures
+{
+	/* background-colors moeten aangepast worden naar imgs */
+	0% {background-image: url("../afbeeldingen/homeBanner.png");}
+	33% {background-image: url("../afbeeldingen/homeBanner2.png");}
+	66% {background-image: url("../afbeeldingen/drankenBanner.png");}
+	100% {background-image: url("../afbeeldingen/homeBanner.png");}
+}
+
+@keyframes cirkels1
+{
+	0% {opacity: 1;}
+	33% {opacity: 0;}
+	66% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes cirkels2
+{
+	0% {opacity: 0;}
+	33% {opacity: 1;}
+	66% {opacity: 0;}
+	100% {opacity: 0;}
+}
+
+@keyframes cirkels3
+{
+	0% {opacity: 0;}
+	33% {opacity: 0;}
+	66% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
 .homeBanner
 {
 	min-height: 823px;
 	grid-row: 2;
 	grid-column: 1/4;
 	background-image: url("../afbeeldingen/homeBanner.png");
+	animation-name: pictures;
+	animation-duration: 30s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
 }
 
 .welkom
@@ -132,13 +179,6 @@ footer
 	justify-content: center;
 }
 
-.afbeeldingenHome
-{
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-}
-
 .middleHome
 {
 	display: flex;
@@ -147,14 +187,178 @@ footer
 	padding-bottom: 175px;
 }
 
+.afbeeldingenHome
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.parent
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.image1
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	opacity: 1;
+	animation-name: cirkels1;
+	animation-duration: 30s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+
+.image2
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	animation-name: cirkels2;
+	animation-duration: 30s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+
+.image3
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	animation-name: cirkels3;
+	animation-duration: 30s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+
 
 /* Menu */
+#frontmenu-container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 0 auto;
+} 
+
+.Menufoto
+{ 
+width: 716px;
+height: 824px;
+left: 0px;
+top: 128px;
+background: url(image);
+} 
+
+.Menudrink{
+display: flex; 
+}
 
 
+/* Dranken */
+#drankenContainer
+{
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+	grid-column: 1/16;
+	font-family: Caveat, Sans-Serif;
+	background-image: url(../afbeeldingen/drankenBanner.png);
+	/*background-color: cornflowerblue;*/
+	background-size: cover;
+	color: #95261F;
+}
 
-/* Drinken */
+#bovenstukDranken
+{
+	grid-column: 7/17;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px 0px 70px 0px;
+}
 
+#bovenstukDranken h1
+{
+	font-size: 48px;
+}
 
+#terugDranken
+{
+	border: solid #95261F 2px;
+	background-color: #95261F;
+	padding:0px 65px 0px 40px;
+	margin-right: 30px;
+}
+
+#terugDranken a
+{
+	color: #EDE5BB;
+	text-decoration: none;
+	font-family: bebasneue;
+	font-size: 36px;
+}
+
+#warmeDranken
+{
+	grid-column: 3/7;
+	margin-bottom: 70px;
+}
+
+#warmeDranken h2
+{
+	font-size: 36px;
+}
+
+#warmeDranken h3
+{
+	font-size: 32px;
+}
+
+.prijsRij
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+#koudeDranken
+{
+	grid-column: 10/15;
+}
+
+#koudeDranken h2
+{
+	font-size: 36px;
+}
+
+#koudeDranken h3
+{
+	font-size: 32px;
+}
+
+#illustarieDranken
+{
+	grid-column: 14/16;
+	display: flex;
+	justify-content: center;
+}
+
+#illustartiek
+{
+	/*width:;*/
+}
+
+#illustartiet
+{
+	/*/width: ;*/
+}
 
 /* Eten */
 
@@ -173,7 +377,8 @@ footer
 	display: grid;
 	height: 430px;
 	grid-column: 1/4;
-	background: rgba(237, 229, 187, 0.25);
+	background: rgba(237, 229, 187, .5);
+
 }
 	.topNP > p 
 	{
@@ -193,9 +398,10 @@ footer
 		padding-top: 70px;
 		position: relative;
 		top: -65px;
+		z-index: 9;
 	}
-	.topNP > div 
-	{
+	.topNP > div {
+		display: grid;
 		background-color: #95261F;
 		width: 300px;
 		height: 53px;
@@ -204,6 +410,93 @@ footer
 		top: -65px;
 		right: 33px;
 	}
+.TerugNP 
+{
+	display: flex;
+	text-decoration: none;
+	color: #EDE5BB;
+	justify-content: center;
+	align-items: center;
+	font-size: 55px;
+	position: relative;
+	top: -51px;
+	font-family: bebasneue;
+
+}
+
+.TerugIconNP 
+{
+	position: relative;
+	left: 20px;
+	font-size: 40px;
+	color: #EDE5BB;
+	font-family: bebasneue;
+}
+
+.productenNP
+{
+	display: grid;
+	height: 1300px;
+	align-items: center;
+
+}
+	.productenNP > div 
+	{
+		width: 725px;
+		margin-left: auto;
+		color: #95261F;
+	}
+		.productenNP > div > .theeNP
+		{
+			height: 420px;
+			width: 321px;
+		}
+
+		.productenNP > div > .macaronNP 
+		{
+			height: 350px;
+			width: 321px;
+		}
+
+		.productenNP > div > .textNP 
+		{
+			width: 391px;
+			margin-left: auto;
+			font-size: 32px;
+			display: inline-block;
+			position: relative;
+			top: -85px;
+			left: 15px;
+			font-family: caveat;
+		}
+		.productenNP > div > .textNP > div 
+		{
+			width: 391px;
+			margin-left: auto;
+			font-size: 24px;
+			font-family: abeezee;
+		}
+		.descNP {
+			font-size: 16px;
+			position: relative;
+			top: 22px;
+			font-family: abeezee;
+		}
+		.thee2NP
+		{
+			position: relative;
+			top: 25px;
+		}
+		.macNP
+		{
+			position: relative;
+			top: 200px;
+		}
+		#textNP2
+		{
+			position: relative;
+			top: -155px;
+		}
 
 /* Over ons */
 
@@ -288,7 +581,8 @@ iframe
 
 
 /* Nieuws */
-.middel-nieuws{
+.middel-nieuws
+{
 	grid-column: 1/4;
 	min-height: 800px;
 	background-image: url("../afbeeldingen/nieuwsbanner.png");
