@@ -242,21 +242,13 @@ footer
 
 
 /* Menu */
-<<<<<<< Updated upstream
-#frontmenu-container
-{
+#frontmenu-container{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	margin: 0 auto;
-=======
-#frontmenu-container
-{
-	display: grid; 
-	grid-template-columns: repeat(3, 1fr); 
->>>>>>> Stashed changes
-}
-.Menufoto
-{ 
+} 
+
+.Menufoto{
 width: 716px;
 height: 824px;
 left: 0px;
@@ -264,14 +256,9 @@ top: 128px;
 background: url(image);
 } 
 
-.Menudrink
-{
+.Menudrink{
 display: flex; 
-
 }
-
-
-
 
 
 /* Dranken */
