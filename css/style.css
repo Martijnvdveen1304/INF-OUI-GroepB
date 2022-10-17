@@ -231,8 +231,9 @@ footer
 
 /* Menu */
 #frontmenu-container{
-	display: grid; 
-	grid-template-columns: reaper(3, 1fr); 
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 0 auto;
 }
 .Menufoto{ 
 width: 716px;
