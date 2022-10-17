@@ -242,18 +242,11 @@ footer
 
 
 /* Menu */
-<<<<<<< Updated upstream
 #frontmenu-container
 {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	margin: 0 auto;
-=======
-#frontmenu-container
-{
-	display: grid; 
-	grid-template-columns: repeat(3, 1fr); 
->>>>>>> Stashed changes
+	margin: 0 auto; 
 }
 .Menufoto
 { 
