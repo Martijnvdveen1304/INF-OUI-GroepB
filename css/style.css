@@ -244,7 +244,7 @@ background: url(image);
 
 
 
-/* Drinken */
+/* Dranken */
 #drankenContainer{
 	display: grid;
 	grid-template-columns: repeat(16, 1fr);
@@ -302,7 +302,7 @@ background: url(image);
 }
 
 #koudeDranken{
-	grid-column: 11/16;
+	grid-column: 10/15;
 }
 
 #koudeDranken h2{
