@@ -274,7 +274,55 @@ bottom: 25.78%;
 background: url(image.png);
 }
 
+.Tekst{ 
+position: relative;
+left: 30%;
+right: 0%;
+top: -0.32%;
+bottom: 68.69%;
 
+font-family: 'abeezee';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #95261F;
+border: EDE5BB 30px; 
+background-color: EDE5BB; 
+}
+
+.Tekstonderfoto{
+position: relative; 
+left: 51.05%;
+right: 64.21%;
+top: 27.85%;
+bottom: 6.63%;
+
+font-family: 'Caveat';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+
+color: #95261F;
+} 
+
+.Etentestkonderfoto{ 
+position: relative; 
+left: 25.77%;
+right: 18.48%;	
+top: 35.85%;
+bottom: 7.73%;
+
+font-family: 'Caveat';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+
+color: #95261F;
+}
 
 /* Dranken */
 #drankenContainer
