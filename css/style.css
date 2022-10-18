@@ -258,8 +258,22 @@ background: url(image);
 } 
 
 .Menudrink{
-display: flex; 
+position: relative;
+left: 30%;
+right: 51.29%;
+top: 33.89%;
+bottom: 25.6%;
+background: url(image.png);
 }
+
+.Menueten{
+position: relative; 
+right: 0%;
+top: 33.89%;
+bottom: 25.78%;
+background: url(image.png);
+}
+
 
 
 /* Dranken */
