@@ -619,3 +619,38 @@ iframe
 	color: #95261F;
 }
 
+.plaatjesregels{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 200px;
+ 
+}
+.kopjesregels{
+	align-items: center;
+	display: flex;
+	font-family: caveat;
+	font-size: 48px;
+	color: #95261F;
+	flex-direction: column;
+}
+
+.regelstekstcontainer{
+	display: flex;
+	padding-top: 300px;
+	grid-row: 2/3;
+	column-gap: 100px;
+	color: #95261F;
+	font-size: 24px;
+	padding-left: 265px;
+	padding-right: 265px;
+	align-items: center;
+	
+}
+
+.afmetingregels{
+	width: 320px;
+    height: 149px;
+}
+
+
