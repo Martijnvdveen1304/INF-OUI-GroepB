@@ -575,7 +575,7 @@ color: #95261F;
 	background-size: 750px;
 	background-repeat: no-repeat;
 	text-align: center;
-	padding: 50px;
+	padding: 90px;
 	color: #95261F;
 }
 
@@ -587,6 +587,9 @@ color: #95261F;
 	font-family: caveat;
 }
 
+#overOnsMacaron{
+	padding: 175px;
+}
 
 /* Recepten */
 .receptencontent > h2 
