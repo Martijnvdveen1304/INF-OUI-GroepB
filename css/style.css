@@ -608,9 +608,20 @@ color: #95261F;
 	grid-template-columns: 1fr 1fr;
 }
 
+#overOnsTitle{
+	position: relative;
+	left: 395px;
+	bottom: 70px;
+	font-size: 60px;
+	font-family: caveat;
+}
+
+#overOnsTitle > h6{
+	font-weight: normal;
+}
 
 #tekstAfbeelding{
-	
+	grid-column: 1;
 	height: 800px;
 	background: url("../afbeeldingen/overOnsKoffie.png");
 	background-size: 750px;
@@ -619,8 +630,6 @@ color: #95261F;
 	padding: 90px;
 	color: #95261F;
 }
-
-
 
 #tekstAfbeelding > h6{
 	font-size: 35px;
@@ -631,6 +640,52 @@ color: #95261F;
 #overOnsMacaron{
 	padding: 175px;
 }
+
+#medewerkersBox{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	padding: 5px;
+	gap: 10px;
+	position: relative;
+	top: 140px;
+	align-content: flex-start;
+}
+
+.medewerkers:hover{
+	background-color: #95261F;
+	color: #EDE5BB;
+}
+
+.medewerkers{
+	background-color: #EDE5BB;
+	height: 375px;
+	width: 300px;
+	color: #95261F;
+}
+
+.medewerkers > img{
+	height: 70px;
+	width: auto;
+	position: relative;
+	top: 80px;
+}
+
+.medewerkers > h6{
+	font-size: 30px;
+	font-family: caveat;
+	font-weight: normal;
+	position: relative;
+	top: 60px;
+}
+
+.medewerkers > p{
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+
 
 /* Recepten */
 .receptencontent > h2 
