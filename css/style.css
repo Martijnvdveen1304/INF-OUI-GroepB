@@ -288,8 +288,8 @@ font-size: 24px;
 line-height: 28px;
 
 color: #95261F;
-border: EDE5BB 30px; 
-background-color: EDE5BB; 
+border: #EDE5BB 30px; 
+background-color: #EDE5BB; 
 }
 
 .Tekstonderfoto{
@@ -424,7 +424,47 @@ color: #95261F;
 
 /* Eten */
 
+#middleE 
+{
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+	grid-column: 1/17;
+	grid-row: 2;
+	font-family: Caveat, Sans-Serif;
+	background-image: url(../afbeeldingen/etenBanner.png);
+	/*background-color: cornflowerblue;*/
+	background-size: cover;
+	color: #95261F;
+	height: 1080px;
+}
+.topE 
+{
+	display: grid;
+	grid-column: 1/17;
+	height: 430px;
+}
+	.topE > p 
+	{
+		display: flex;
+		font-family: caveat;
+		font-size: 64px;
+		justify-content: center;
+		color: #95261F;
+		padding-top: 10px;
+	}
 
+	.topE > div 
+	{
+		display: grid;
+		background-color: #95261F;
+		width: 300px;
+		height: 53px;
+		margin-left: auto;
+		position: relative;
+		top: -208px;
+		right: 33px;
+		margin-bottom: auto;
+	}
 
 /* Nieuwe producten */
 
@@ -481,7 +521,7 @@ color: #95261F;
 	align-items: center;
 	font-size: 55px;
 	position: relative;
-	top: -51px;
+	top: -53px;
 	font-family: bebasneue;
 
 }
@@ -490,6 +530,7 @@ color: #95261F;
 {
 	position: relative;
 	left: 20px;
+	top: -2px;
 	font-size: 40px;
 	color: #EDE5BB;
 	font-family: bebasneue;
