@@ -809,8 +809,16 @@ iframe
 .text-middel-nieuws {
 	display: flex;
 	justify-content: center;
-	margin-top: 150px;
+	margin-top: 100px;
 	align-items: center;
+}
+
+.nieuwsbrief-nieuws{
+	width: 600px;
+	text-align: right;
+	padding-right: 75px;
+	padding-left: 75px;
+	margin-left: 75px;
 }
 
 .nieuwsbrief-nieuws p {
@@ -821,6 +829,7 @@ iframe
 .nieuwsbrief-nieuws p + p {
 	font-family: abeezee;
 	font-size: 24px;
+	margin-bottom: 50px;
 }
 
 .aanmelden-nieuws {
@@ -828,8 +837,11 @@ iframe
 	border-color: #EDE5BB;
 	border-radius: 25px;
 	background-color: #EDE5BB;
-	width: 750px;
+	width: 600px;
 	height: 350px;
+	padding-right: 75px;
+	padding-left: 75px;
+	margin-left: 60px;
 }
 
 .aanmelden-nieuws p {
@@ -844,7 +856,13 @@ iframe
 
 .illustraties-nieuws {
 	display: flex;
-	justify-content: center;
+	justify-content: center
+}
+
+.illustraties-nieuws img {
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 100px;
 }
 
 /* Regels */
