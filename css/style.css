@@ -47,8 +47,6 @@ header
 	height: 128px;
 }
 
-
-
 .menu1-container
 {
 	display: flex;
@@ -687,7 +685,7 @@ background-color: #EDE5BB;
 
 
 /* Recepten */
-.receptencontent > h2 
+.receptencontent > p
 {
 	text-align: center;
 	font-family: caveat;
@@ -695,7 +693,7 @@ background-color: #EDE5BB;
 	color: #95261F;
 }
 
-.bereidingswijze > h3 
+.bereidingswijze > p 
 {
 	font-family: caveat;
 	font-size: 48px;
@@ -706,7 +704,13 @@ background-color: #EDE5BB;
 {
 	font-family: abeezee;
 	font-size: 24px;
-	color: #95261F
+	color: #95261F;
+	list-style-type: none;
+}
+
+.bereidingswijze
+{
+	margin-right: 50px;
 }
 
 #youtubecontainer, .yt
@@ -731,14 +735,14 @@ background-color: #EDE5BB;
 {
 	background-color: #EDE5BB;
 	padding: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 	border-radius: 5%;
 }
 
 iframe 
 {
 	width: 750px;
-	height: 500px;
+	height: 550px;
 	border-radius: 5%;
 }
 
