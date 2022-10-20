@@ -796,8 +796,56 @@ iframe
 	grid-column: 1/4;
 	min-height: 800px;
 	background-image: url("../afbeeldingen/nieuwsbanner.png");
+	text-align: center;
+	color: #95261F;
 }
 
+.Nieuws-Nieuws {
+	font-size: 64px;
+	padding-top: 25px;
+	font-family: caveat; 
+}
+
+.text-middel-nieuws {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+	align-items: center;
+}
+
+.nieuwsbrief-nieuws p {
+	font-family: caveat;
+	font-size: 48px;
+}
+
+.nieuwsbrief-nieuws p + p {
+	font-family: abeezee;
+	font-size: 24px;
+}
+
+.aanmelden-nieuws {
+	border-style: solid;
+	border-color: #EDE5BB;
+	border-radius: 25px;
+	background-color: #EDE5BB;
+	width: 750px;
+	height: 350px;
+}
+
+.aanmelden-nieuws p {
+	font-family: caveat;
+	font-size: 48px;
+}
+
+.aanmelden-nieuws p + p {
+	font-family: abeezee;
+	font-size: 24px;
+}
+
+.illustraties-nieuws {
+	display: flex;
+	justify-content: center;
+}
 
 /* Regels */
 .regelsbanner
