@@ -738,7 +738,7 @@ color: #95261F;
 
 iframe 
 {
-	width: 500px;
+	width: 750px;
 	height: 500px;
 	border-radius: 5%;
 }
@@ -748,10 +748,6 @@ iframe
 	background-image: url("../afbeeldingen/receptenBanner.jpg");
 	background-size: cover;
 }
-
-
-
-
 
 /* Nieuws */
 .middel-nieuws
