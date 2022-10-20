@@ -260,7 +260,7 @@ background: url(image);
 position: relative;
 left: 30%;
 right: 51.29%;
-top: 33.89%;
+top: 27%;
 bottom: 25.6%;
 background: url(image.png);
 }
@@ -277,9 +277,9 @@ background: url(image.png);
 position: relative;
 left: 30%;
 right: 0%;
-top: -0.32%;
+top: 25%;
 bottom: 68.69%;
-
+color: #95261F;
 font-family: 'abeezee';
 font-style: normal;
 font-weight: 400;
@@ -289,9 +289,9 @@ line-height: 28px;
 
 .Tekstonderfoto{
 position: relative; 
-left: 51.05%;
+left: 30%; 
 right: 64.21%;
-top: 27.85%;
+top: 26%;
 bottom: 6.63%;
 font-family: 'Caveat';
 font-style: normal;
@@ -299,16 +299,19 @@ font-weight: 400;
 font-size: 48px;
 line-height: 60px;
 color: #95261F;
-color: #95261F;
-border: #EDE5BB 30px; 
+border: #EDE5BB 20px;
 background-color: #EDE5BB; 
+display: flex; 
+justify-content: center; 
+width: 377px;
+height: 150px;
+align-items: center; 
+
 } 
 
 .Etentestkonderfoto{ 
-position: relative; 
-left: 25.77%;
-right: 18.48%;	
-top: 35.85%;
+position: relative; 	
+top: 32.85%;
 bottom: 7.73%;
 font-family: 'Caveat';
 font-style: normal;
@@ -316,10 +319,45 @@ font-weight: 400;
 font-size: 48px;
 line-height: 60px;
 color: #95261F;
-color: #95261F;
 border: #EDE5BB 20px;
 background-color: #EDE5BB; 
+display: flex; 
+justify-content: center; 
+width: 376px;
+height: 150px;
+align-items: center; 	
 }
+
+.nieuweproductknop{
+position: absolute;
+width: 790px;
+height: 76px;
+left: 895px;
+top: 829px;
+background: #95261F;
+font-family: bebasneue; 
+color: #EDE5BB; 
+font-size: 40px; 
+display: flex; 
+justify-content: center; 
+align-items: center;  
+}
+
+.nieuweproductknop > a {	
+text-decoration: none;
+color: #EDE5BB; 
+}
+
+#dranken > a {	
+text-decoration: none;
+}
+
+#eten > a {	
+text-decoration: none;
+}
+
+
+
 
 
 /* Dranken */
