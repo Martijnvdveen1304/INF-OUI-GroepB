@@ -375,25 +375,34 @@ text-decoration: none;
 
 #bovenstukDranken
 {
-	grid-column: 7/17;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 30px 0px 70px 0px;
+	display: grid;
+	grid-column: 1/17;
+	height: 430px;
 }
 
-#bovenstukDranken h1
-{
-	font-size: 48px;
-}
 
-#terugDranken
-{
-	border: solid #95261F 2px;
-	background-color: #95261F;
-	padding:0px 65px 0px 40px;
-	margin-right: 30px;
-}
+	#bovenstukDranken > p 
+	{
+		display: flex;
+		font-family: caveat;
+		font-size: 64px;
+		justify-content: center;
+		color: #95261F;
+		padding-top: 10px;
+	}
+
+	#bovenstukDranken > div 
+	{
+		display: grid;
+		background-color: #95261F;
+		width: 300px;
+		height: 53px;
+		margin-left: auto;
+		position: relative;
+		margin-bottom: auto;
+		top: -208px;
+		right: 33px;
+	}
 
 #terugDranken a
 {
