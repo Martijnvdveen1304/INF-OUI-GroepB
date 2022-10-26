@@ -475,21 +475,19 @@ text-decoration: none;
 {
 	display: grid;
 	grid-template-columns: repeat(16, 1fr);
-	grid-column: 1/17;
-	grid-row: 2;
+	grid-column: 1/16;
 	font-family: Caveat, Sans-Serif;
-	background-image: url(../afbeeldingen/etenBanner.png);
+	background-image: url(../afbeeldingen/drankenBanner.png);
 	/*background-color: cornflowerblue;*/
 	background-size: cover;
 	color: #95261F;
-	height: 1080px;
 }
 
 .topE 
 {
 	display: grid;
 	grid-column: 1/17;
-	height: 430px;
+	height: 234px;
 }
 
 	.topE > p 
@@ -514,7 +512,33 @@ text-decoration: none;
 		right: 33px;
 		margin-bottom: auto;
 	}
-	
+#BroodCroisPetitE {
+	grid-column: 3/7;
+	margin-bottom: 70px;
+}
+
+	#BroodCroisPetitE h2 {
+		font-size: 36px;
+	}
+
+	#BroodCroisPetitE h3 {
+		font-size: 32px;
+	}
+
+.prijsRijE {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+#Zoetigheid {
+	grid-column: 10/15;
+}
+
+	#Zoetigheid h2 {
+		font-size: 36px;
+	}
+
 
 /* Nieuwe producten */
 .middleNP
