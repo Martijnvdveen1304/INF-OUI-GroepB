@@ -379,7 +379,7 @@ text-decoration: none;
 	grid-template-columns: repeat(16, 1fr);
 	grid-column: 1/16;
 	font-family: Caveat, Sans-Serif;
-	background-image: url(../afbeeldingen/drankenBanner.png);
+	background-image: url("../afbeeldingen/drankenBanner.png");
 	/*background-color: cornflowerblue;*/
 	background-size: cover;
 	color: #95261F;
@@ -477,41 +477,12 @@ text-decoration: none;
 	grid-template-columns: repeat(16, 1fr);
 	grid-column: 1/16;
 	font-family: Caveat, Sans-Serif;
-	background-image: url(../afbeeldingen/drankenBanner.png);
+	background-image: url("../afbeeldingen/etenBanner.png");
 	/*background-color: cornflowerblue;*/
 	background-size: cover;
 	color: #95261F;
 }
 
-.topE 
-{
-	display: grid;
-	grid-column: 1/17;
-	height: 234px;
-}
-
-	.topE > p 
-	{
-		display: flex;
-		font-family: caveat;
-		font-size: 64px;
-		justify-content: center;
-		color: #95261F;
-		padding-top: 10px;
-	}
-
-	.topE > div 
-	{
-		display: grid;
-		background-color: #95261F;
-		width: 300px;
-		height: 53px;
-		margin-left: auto;
-		position: relative;
-		top: -208px;
-		right: 33px;
-		margin-bottom: auto;
-	}
 #BroodCroisPetitE {
 	grid-column: 3/7;
 	margin-bottom: 70px;
@@ -532,7 +503,7 @@ text-decoration: none;
 }
 
 #Zoetigheid {
-	grid-column: 10/15;
+	grid-column: 12/15;
 }
 
 	#Zoetigheid h2 {
