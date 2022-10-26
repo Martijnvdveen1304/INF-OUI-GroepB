@@ -33,8 +33,9 @@
 				<div class="aanmelden-nieuws">
 					<p> Benieuwd? </p>
 					<p> Meld je nu aan om op de hoogte te blijven van alle nieuwtjes, winacties en nog veel meer! <p>
-					<form name="Nieuwsbrief-form" action="Nieuws.html" method="POST">
+					<form name="Nieuwsbrief" action="Nieuws.html" method="POST">
 						<div>
+							<label for="email"><span class="required">*</span>Email</label>
 							<input type="text" name="email" id="email" required placeholder="Vul hier je email adress in">
 						</div>
 				</div>
