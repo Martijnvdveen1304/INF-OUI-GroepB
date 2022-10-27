@@ -106,12 +106,14 @@ footer
 		font-family: abeezee;
 		margin-right: auto;
 	}
+	
 	.menu2-container > div 
 	{
 		margin-left: auto;
 		display: flex;
 		
 	}
+	
 .icon
 {
 	max-width: 46px;
@@ -241,7 +243,8 @@ footer
 
 
 /* Menu */
-#frontmenu-container{
+#frontmenu-container
+{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	margin: 0 auto;
@@ -256,7 +259,8 @@ top: 128px;
 background: url(image);
 } 
 
-.Menudrink{
+.Menudrink
+{
 position: relative;
 left: 30%;
 right: 51.29%;
@@ -265,7 +269,8 @@ bottom: 25.6%;
 background: url(image.png);
 }
 
-.Menueten{
+.Menueten
+{
 position: relative; 
 right: 0%;
 top: 33.89%;
@@ -273,7 +278,8 @@ bottom: 25.78%;
 background: url(image.png);
 }
 
-.Tekst{ 
+.Tekst
+{ 
 position: relative;
 left: 30%;
 right: 0%;
@@ -287,7 +293,8 @@ font-size: 24px;
 line-height: 28px;
 }
 
-.Tekstonderfoto{
+.Tekstonderfoto
+{
 position: relative; 
 left: 30%; 
 right: 64.21%;
@@ -309,7 +316,8 @@ align-items: center;
 
 } 
 
-.Etentestkonderfoto{ 
+.Etentestkonderfoto
+{ 
 position: relative; 	
 top: 32.85%;
 bottom: 7.73%;
@@ -328,7 +336,8 @@ height: 150px;
 align-items: center; 	
 }
 
-.nieuweproductknop{
+.nieuweproductknop
+{
 position: absolute;
 width: 790px;
 height: 76px;
@@ -343,16 +352,19 @@ justify-content: center;
 align-items: center;  
 }
 
-.nieuweproductknop > a {	
+	.nieuweproductknop > a 
+	{	
+	text-decoration: none;
+	color: #EDE5BB; 
+	}
+
+#dranken > a 
+{	
 text-decoration: none;
-color: #EDE5BB; 
 }
 
-#dranken > a {	
-text-decoration: none;
-}
-
-#eten > a {	
+#eten > a 
+{	
 text-decoration: none;
 }
 
@@ -367,7 +379,7 @@ text-decoration: none;
 	grid-template-columns: repeat(16, 1fr);
 	grid-column: 1/16;
 	font-family: Caveat, Sans-Serif;
-	background-image: url(../afbeeldingen/drankenBanner.png);
+	background-image: url("../afbeeldingen/drankenBanner.png");
 	/*background-color: cornflowerblue;*/
 	background-size: cover;
 	color: #95261F;
@@ -457,76 +469,64 @@ text-decoration: none;
 	justify-content: center;
 }
 
-#illustartiek
-{
-	/*width:;*/
-}
-
-#illustartiet
-{
-	/*/width: ;*/
-}
 
 /* Eten */
-
 #middleE 
 {
 	display: grid;
 	grid-template-columns: repeat(16, 1fr);
-	grid-column: 1/17;
-	grid-row: 2;
+	grid-column: 1/16;
 	font-family: Caveat, Sans-Serif;
-	background-image: url(../afbeeldingen/etenBanner.png);
+	background-image: url("../afbeeldingen/etenBanner.png");
 	/*background-color: cornflowerblue;*/
 	background-size: cover;
 	color: #95261F;
-	height: 1080px;
 }
-.topE 
-{
-	display: grid;
-	grid-column: 1/17;
-	height: 430px;
+
+#BroodCroisPetitE {
+	grid-column: 3/7;
+	margin-bottom: 70px;
 }
-	.topE > p 
-	{
-		display: flex;
-		font-family: caveat;
-		font-size: 64px;
-		justify-content: center;
-		color: #95261F;
-		padding-top: 10px;
+
+	#BroodCroisPetitE h2 {
+		font-size: 36px;
 	}
 
-	.topE > div 
-	{
-		display: grid;
-		background-color: #95261F;
-		width: 300px;
-		height: 53px;
-		margin-left: auto;
-		position: relative;
-		top: -208px;
-		right: 33px;
-		margin-bottom: auto;
+	#BroodCroisPetitE h3 {
+		font-size: 32px;
 	}
+
+.prijsRijE {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+#Zoetigheid {
+	grid-column: 12/15;
+}
+
+	#Zoetigheid h2 {
+		font-size: 36px;
+	}
+
 
 /* Nieuwe producten */
-
 .middleNP
 {
 	min-height: 1640px;
 	grid-row: 2;
 	grid-column: 1/4;
 }
+
 .topNP 
 {
 	display: grid;
 	height: 430px;
 	grid-column: 1/4;
 	background: rgba(237, 229, 187, .5);
-
 }
+
 	.topNP > p 
 	{
 		display: flex;
@@ -536,6 +536,7 @@ text-decoration: none;
 		color: #95261F;
 		padding-top: 10px;
 	}
+	
 	.topNP > img 
 	{
 		height: 479px;
@@ -547,7 +548,9 @@ text-decoration: none;
 		top: -65px;
 		z-index: 9;
 	}
-	.topNP > div {
+	
+	.topNP > div 
+	{
 		display: grid;
 		background-color: #95261F;
 		width: 300px;
@@ -557,6 +560,7 @@ text-decoration: none;
 		top: -65px;
 		right: 33px;
 	}
+	
 .TerugNP 
 {
 	display: flex;
@@ -568,7 +572,6 @@ text-decoration: none;
 	position: relative;
 	top: -53px;
 	font-family: bebasneue;
-
 }
 
 .TerugIconNP 
@@ -588,12 +591,14 @@ text-decoration: none;
 	align-items: center;
 
 }
+
 	.productenNP > div 
 	{
 		width: 725px;
 		margin-left: auto;
 		color: #95261F;
 	}
+	
 		.productenNP > div > .theeNP
 		{
 			height: 420px;
@@ -617,6 +622,7 @@ text-decoration: none;
 			left: 15px;
 			font-family: caveat;
 		}
+		
 		.productenNP > div > .textNP > div 
 		{
 			width: 391px;
@@ -624,36 +630,42 @@ text-decoration: none;
 			font-size: 24px;
 			font-family: abeezee;
 		}
+		
 		.descNP {
 			font-size: 16px;
 			position: relative;
 			top: 22px;
 			font-family: abeezee;
 		}
+		
 		.thee2NP
 		{
 			position: relative;
 			top: 25px;
 		}
+		
 		.macNP
 		{
 			position: relative;
 			top: 200px;
 		}
+		
 		#textNP2
 		{
 			position: relative;
 			top: -155px;
 		}
 
-/* Over ons */
 
-#overOnsContainer{
+/* Over ons */
+#overOnsContainer
+{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
 
-#overOnsTitle{
+#overOnsTitle
+{
 	position: relative;
 	left: 395px;
 	bottom: 70px;
@@ -661,11 +673,13 @@ text-decoration: none;
 	font-family: caveat;
 }
 
-#overOnsTitle > h6{
+#overOnsTitle > h6
+{
 	font-weight: normal;
 }
 
-#tekstAfbeelding{
+#tekstAfbeelding
+{
 	grid-column: 1;
 	height: 800px;
 	background: url("../afbeeldingen/overOnsKoffie.png");
@@ -676,17 +690,20 @@ text-decoration: none;
 	color: #95261F;
 }
 
-#tekstAfbeelding > h6{
+#tekstAfbeelding > h6
+{
 	font-size: 35px;
 	font-weight: normal;
 	font-family: caveat;
 }
 
-#overOnsMacaron{
+#overOnsMacaron
+{
 	padding: 175px;
 }
 
-#medewerkersBox{
+#medewerkersBox
+{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -698,26 +715,30 @@ text-decoration: none;
 	align-content: flex-start;
 }
 
-.medewerkers:hover{
+.medewerkers:hover
+{
 	background-color: #95261F;
 	color: #EDE5BB;
 }
 
-.medewerkers{
+.medewerkers
+{
 	background-color: #EDE5BB;
 	height: 375px;
 	width: 300px;
 	color: #95261F;
 }
 
-.medewerkers > img{
+.medewerkers > img
+{
 	height: 70px;
 	width: auto;
 	position: relative;
 	top: 80px;
 }
 
-.medewerkers > h6{
+.medewerkers > h6
+{
 	font-size: 30px;
 	font-family: caveat;
 	font-weight: normal;
@@ -725,7 +746,8 @@ text-decoration: none;
 	top: 60px;
 }
 
-.medewerkers > p{
+.medewerkers > p
+{
 	text-align: center;
 	position: relative;
 	top: 100px;
@@ -799,6 +821,7 @@ iframe
 	background-image: url("../afbeeldingen/receptenBanner.jpg");
 }
 
+
 /* Nieuws */
 .middel-nieuws
 {
@@ -809,20 +832,23 @@ iframe
 	color: #95261F;
 }
 
-.Nieuws-Nieuws {
+.Nieuws-Nieuws 
+{
 	font-size: 64px;
 	padding-top: 25px;
 	font-family: caveat; 
 }
 
-.text-middel-nieuws {
+.text-middel-nieuws 
+{
 	display: flex;
 	justify-content: center;
 	margin-top: 100px;
 	align-items: center;
 }
 
-.nieuwsbrief-nieuws{
+.nieuwsbrief-nieuws
+{
 	width: 600px;
 	text-align: right;
 	padding-right: 75px;
@@ -830,18 +856,21 @@ iframe
 	margin-left: 75px;
 }
 
-.nieuwsbrief-nieuws p {
+.nieuwsbrief-nieuws p 
+{
 	font-family: caveat;
 	font-size: 48px;
 }
 
-.nieuwsbrief-nieuws p + p {
+.nieuwsbrief-nieuws p + p 
+{
 	font-family: abeezee;
 	font-size: 24px;
 	margin-bottom: 50px;
 }
 
-.aanmelden-nieuws {
+.aanmelden-nieuws 
+{
 	border-style: solid;
 	border-color: #EDE5BB;
 	border-radius: 25px;
@@ -853,22 +882,50 @@ iframe
 	margin-left: 60px;
 }
 
-.aanmelden-nieuws p {
+.aanmelden-nieuws p 
+{
 	font-family: caveat;
 	font-size: 48px;
 }
 
-.aanmelden-nieuws p + p {
+.aanmelden-nieuws p + p
+{
 	font-family: abeezee;
 	font-size: 24px;
 }
 
-.illustraties-nieuws {
+.aanmelden-nieuws input[type=text] 
+{
+	width: 600px;
+	height: 50px;
+	margin-top: 50px;
+	border-width: 0px;
+	text-align: center;
+	font-size: 20px;
+	font-family: abeezee;
+}
+
+.aanmelden-nieuws input[type=submit] 
+{
+	width: 500px;
+	height: 50px;
+	margin-top: 40px;
+	border-width: 0px;
+	text-align: center;
+	font-size: 20px;
+	font-family: abeezee;
+	background-color: red;
+	color: white;
+}
+
+.illustraties-nieuws 
+{
 	display: flex;
 	justify-content: center
 }
 
-.illustraties-nieuws img {
+.illustraties-nieuws img 
+{
 	margin-left: 250px;
 	margin-right: 250px;
 	margin-top: 100px;
@@ -892,14 +949,16 @@ iframe
 	color: #95261F;
 }
 
-.plaatjesregels{
+.plaatjesregels
+{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	padding-top: 200px;
- 
 }
-.kopjesregels{
+
+.kopjesregels
+{
 	align-items: center;
 	display: flex;
 	font-family: caveat;
@@ -908,7 +967,8 @@ iframe
 	flex-direction: column;
 }
 
-.regelstekstcontainer{
+.regelstekstcontainer
+{
 	display: flex;
 	padding-top: 300px;
 	grid-row: 2/3;
@@ -918,15 +978,16 @@ iframe
 	padding-left: 265px;
 	padding-right: 265px;
 	align-items: center;
-	
 }
 
-.afmetingregels{
+.afmetingregels
+{
 	width: 320px;
     height: 149px;
 }
 
-.tekstregels{
+.tekstregels
+{
 	text-align: center;
-	}
+}
 
