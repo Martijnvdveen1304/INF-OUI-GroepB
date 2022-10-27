@@ -842,9 +842,16 @@ iframe
 .text-middel-nieuws 
 {
 	display: flex;
+	
 	justify-content: center;
 	margin-top: 100px;
 	align-items: center;
+}
+
+#newsform{
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
 }
 
 .nieuwsbrief-nieuws

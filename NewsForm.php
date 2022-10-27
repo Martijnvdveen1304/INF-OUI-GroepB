@@ -23,20 +23,17 @@
 			<div class="Nieuws-Nieuws">
 				<p> Nieuws </p>
 			</div>
-			<div class="text-middel-nieuws">
+			<div id="newsform">
 				<h1>Welkom bij de family!!</h1>
+				<p>
 				<?php
 					if($_SERVER["REQUEST_METHOD"] == "POST"){
 						$email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL);
 						
-						echo "<p>Leuk dat jij je hebt ingescreven voor de nieuwsbrief,</p>
-						<p>De nieuwsbrief wordt verstuurd naar $email.</p>
-						<p>Wij wensen jou een fijne dag verder,</p>
-						<p>en vergeet niet om onze nieuwe porducten te proberen!!</p>
-						<p>Groetjes,</p>
-						<p></p>";
+						echo "De nieuwsbrief wordt verstuurd naar $email.";
 					}
 				?>
+				</p>
 			</div>
 			<div class="illustraties-nieuws">
 				<img src="afbeeldingen/homeMacaron.png" alt="macaron">
