@@ -385,7 +385,6 @@ text-decoration: none;
 	grid-column: 1/16;
 	font-family: Caveat, Sans-Serif;
 	background-image: url("../afbeeldingen/drankenBanner.png");
-	/*background-color: cornflowerblue;*/
 	background-size: cover;
 	color: #95261F;
 }
@@ -483,7 +482,6 @@ text-decoration: none;
 	grid-column: 1/16;
 	font-family: Caveat, Sans-Serif;
 	background-image: url("../afbeeldingen/etenBanner.png");
-	/*background-color: cornflowerblue;*/
 	background-size: cover;
 	color: #95261F;
 }
@@ -1004,6 +1002,11 @@ iframe
 }
 
 
+
+
+
+
+
 /* Mobiele weergave */
 @media screen and (max-width: 576px){
 	
@@ -1168,4 +1171,290 @@ iframe
 		grid-column: 1/2;
 	}
 	
+	
+	/* Dranken */
+	#drankenContainer
+	{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-column: 1/2;
+	}
+	
+	#bovenstukDranken
+	{
+		grid-column: 1/2;
+	}
+
+		#bovenstukDranken > div 
+		{
+			display: grid;
+			background-color: #95261F;
+			width: 300px;
+			height: 53px;
+			margin-left: auto;
+			position: relative;
+			margin-bottom: auto;
+			top: -128px;
+			right: 33px;
+		}
+	
+	#warmeDranken
+	{
+		grid-column: 1/2;
+	}
+	
+	#koudeDranken
+	{
+		grid-column: 1/2;
+	}
+	
+	#illustarieDranken
+	{
+		grid-column: 1/2;
+	}
+	
+	.prijsRij
+	{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+	
+	
+	/* Eten */
+	#middleE
+	{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-column: 1/2;
+	}
+	
+	#BroodCroisPetitE
+	{
+		grid-column: 1/2;
+	}
+	
+	#Zoetigheid
+	{
+		grid-column: 1/2;
+	}
+	
+	.prijsRijE
+	{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+	
+	
+	/* Nieuwe producten */
+	.middleNP
+	{
+		grid-column: 1/2;
+	}
+	
+	.topNP
+	{
+		grid-column: 1/2;
+		max-width: 576px;
+	}
+	
+
+	/* Over ons */
+	#overOnsContainer
+	{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	
+	#tekstAfbeelding
+	{
+		grid-column: 1/2;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 576px;
+	}
+	
+	#medewerkersBox
+	{
+		grid-column: 1/2;
+		top: 0px;
+	}
+	
+	#overOnsTitle
+	{
+		left: 0px;
+	}
+	
+	#overOnsMacaron
+	{
+		padding: 75px;
+	}
+	
+	.medewerkers
+	{
+		height: 300px;
+		width: 250px;
+	}
+	
+	
+	/* Recepten */
+	.receptencontent
+	{
+		grid-column: 1/2;
+		max-width: 576px;
+	}
+	
+	#youtubecontainer > img 
+	{
+		height: 50px;
+		width: 50px;
+		margin: 25px;
+	}
+	
+	.yt 
+	{
+		background-color: #EDE5BB;
+		padding: 25px;
+		margin-bottom: 700px;
+		border-radius: 5%;
+	}
+	
+	iframe 
+	{
+		width: 300px;
+		height: 200px;
+		border-radius: 5%;
+	}
+	
+	.receptencontent > p
+	{
+		font-size: 32px;
+	}
+
+	.bereidingswijze > p 
+	{
+		font-size: 24px;
+	}
+
+	.bereidingswijze > ol
+	{
+		font-size: 12px;
+	}
+	
+	
+	/* Nieuws */
+	.middel-nieuws
+	{
+		grid-column: 1/2;
+		max-width: 576px;
+	}
+	
+	.text-middel-nieuws 
+	{
+		display: flex;
+		flex-flow: wrap;
+		justify-content: center;
+		margin-top: 100px;
+		align-items: center;
+		margin-bottom: 100px;
+	}
+	
+	.illustraties-nieuws
+	{
+		display: none;
+	}
+	
+	.Nieuws-Nieuws 
+	{
+		font-size: 32px;
+	}
+	
+	.nieuwsbrief-nieuws p 
+	{
+		font-size: 28px;
+	}
+
+	.nieuwsbrief-nieuws p + p 
+	{
+		font-size: 16px;
+		margin-bottom: 50px;
+	}
+	
+	.aanmelden-nieuws 
+	{
+		border-style: solid;
+		border-color: #EDE5BB;
+		border-radius: 25px;
+		background-color: #EDE5BB;
+		width: 300px;
+		height: 175px;
+		padding-right: 75px;
+		padding-left: 75px;
+		margin-left: 0px;
+	}
+
+	.aanmelden-nieuws p 
+	{
+		font-family: caveat;
+		font-size: 24px;
+	}
+
+	.aanmelden-nieuws p + p
+	{
+		font-family: abeezee;
+		font-size: 12px;
+	}
+
+	.aanmelden-nieuws input[type=text] 
+	{
+		width: 300px;
+		height: 24px;
+		margin-top: 25px;
+		border-width: 0px;
+		text-align: center;
+		font-size: 10px;
+		font-family: abeezee;
+	}
+
+	.aanmelden-nieuws input[type=submit] 
+	{
+		width: 250px;
+		height: 25px;
+		margin-top: 20px;
+		border-width: 0px;
+		text-align: center;
+		font-size: 10px;
+		font-family: abeezee;
+		background-color: #95261F;
+		color: white;
+	}
+	
+	
+	
+	/* Regels */
+	
+	.regelsbanner
+	{
+		grid-column: 1/2;
+		max-width: 576px;
+	}
+	
+	.regelstekstcontainer
+	{
+		display: flex;
+		flex-flow: wrap;
+		padding-top: 150px;
+		row-gap: 50px;
+		font-size: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 100px;
+	}
+	
+	.plaatjesregels
+	{
+		display: none;
+	}
 }
