@@ -126,7 +126,6 @@ footer
 /* Home */
 @keyframes pictures
 {
-	/* background-colors moeten aangepast worden naar imgs */
 	0% {background-image: url("../afbeeldingen/homeBanner.png");}
 	33% {background-image: url("../afbeeldingen/homeBanner2.png");}
 	66% {background-image: url("../afbeeldingen/drankenBanner.png");}
@@ -195,6 +194,12 @@ footer
 	justify-content: space-around;
 }
 
+.homeImgSize
+{
+	width: auto;
+	height: auto;
+}
+
 .parent
 {
 	position: relative;
@@ -248,7 +253,7 @@ footer
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	margin: 0 auto;
-} 
+}
 
 .Menufoto
 { 
@@ -998,3 +1003,169 @@ iframe
 	text-align: center;
 }
 
+
+/* Mobiele weergave */
+@media screen and (max-width: 576px){
+	
+	/* Algemeen */
+	
+	#container
+	{
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	
+	header
+	{
+		grid-column: 1/2;
+		height: 200px;
+		max-width: 576px;
+	}
+	
+	.menu1-container
+	{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	column-gap: 50px;
+	}
+
+		.menu1-container > p 
+		{
+			padding-left: 90px;
+			padding-right: 90px;
+			color: #95261F;
+			font-size: 32px;
+			font-family: abeezee;
+		}
+
+		.menu1-container > a 
+		{
+			font-size: 20px;
+			font-family: caveat;
+			text-decoration: none;
+			color: #95261F;
+		}
+	
+	footer
+	{
+		grid-column: 1/2;
+		max-height: 236px;
+		max-width: 576px;
+	}
+	
+	.menu2-container 
+	{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-left: 55px;
+	padding-right: 55px;
+	}
+
+		.menu2-container > p 
+		{
+			color: #95261F;
+			font-size: 20px;
+			font-family: caveat;
+
+		}
+
+		.menu2-container > h1 
+		{
+			color: #95261F;
+			font-size: 48px;
+			font-family: abeezee;
+			margin-right: auto;
+		}
+		
+		.menu2-container > div 
+		{
+			margin-left: auto;
+			display: flex;
+			
+		}
+	
+	
+	
+	/* Home */
+	
+	.homeBanner
+	{
+		grid-column: 1/2;
+		min-height: 823px;
+		background-image: url("../afbeeldingen/homeBanner.png");
+		max-width: 576px;
+		height: auto;
+	}
+	
+	.welkom
+	{
+		font-family: "Ms Madi";
+		color: #95261F;
+		font-size: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.middleHome
+	{
+		display: flex;
+		justify-content: center;
+		padding-top: 332px;
+		padding-bottom: 175px;
+	}
+
+	.afbeeldingenHome
+	{
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-around;
+	}
+	
+	.parent
+	{
+		display: none;
+	}
+	
+	.homeImgSize
+	{
+		width: 20%;
+		height: auto;
+	}
+	
+	
+	/* Menu */
+	
+	#frontmenu-container
+	{
+		display: grid;
+		grid-template-columns: 1fr;
+		margin: 0 auto;
+	}
+
+	.Menufoto
+	{
+		max-width: 576px;
+		height: auto;
+		left: 0px;
+		top: 128px;
+		background: url(image);
+	}
+	
+	#dranken
+	{
+		grid-column: 1/2;
+	}
+	
+	#eten
+	{
+		grid-column: 1/2;
+	}
+	
+}
